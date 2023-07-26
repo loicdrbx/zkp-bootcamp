@@ -10,7 +10,7 @@
 <p>True or false:</p>
 <ul>
 <li>All odd squares are ≡ 1 (mod 8) ? Seems True</li>
-<li>All even squares are ≡ 1 (mod 8)? False, ex: 4 !≡ 4 (mod 8)</li>
+<li>All even squares are ≡ 1 (mod 8)? False, ex: 4 !≡ 1 (mod 8)</li>
 </ul>
 </li>
 <li>
