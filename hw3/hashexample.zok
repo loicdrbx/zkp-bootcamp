@@ -1,0 +1,15 @@
+import "hashes/sha256/512bitPacked" as sha256packed;
+
+def main(private field a, private field b, private field c, private field d) {
+
+    // Calculate the SHA-256 hash of packed inputs a, b, c, and d.
+    field[2] h = sha256packed([a, b, c, d]);
+
+    // Check if the calculated hash matches specific values.
+    assert(h[0] == 263561599766550617289250058199814760685);
+    assert(h[1] == 65303172752238645975888084098459749904);
+
+    // Program completes successfully if both assertions pass.
+    // Otherwise, terminates with an error.
+    return;
+}
