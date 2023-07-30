@@ -49,7 +49,7 @@
 </li>
 <li>ZKP use cases that I’d like to see developed
 <ul>
-<li>Verifying IoT data, Proof of reserves?</li>
+<li>Verifying IoT data, Proof of reserves, energy trading on smart grids?</li>
 </ul>
 </li>
 </ul>
